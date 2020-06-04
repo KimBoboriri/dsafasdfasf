@@ -1,5 +1,8 @@
 <style lang="sass" src="./assets/scss/main.scss"></style>
-
+<!-- 2020.06.05
+    김 동 영
+    메인 페이지
+    -->
 <template>
   <div class="app">
 
@@ -8,7 +11,7 @@
     <div class="application main container">
       <router-view class="view" transition="test" transition-mode="out-in" keep-alive></router-view>
     </div>
-
+  
     <page-footer></page-footer>
 
   </div>
